@@ -3,7 +3,12 @@ from morse import MorseTranslator
 
 translator = MorseTranslator()
 
-print("Welcome to the Morse code translator!")
+print("""  __  __                       _______                  _       _             
+ |  \/  |                     |__   __|                | |     | |            
+ | \  / | ___  _ __ ___  ___     | |_ __ __ _ _ __  ___| | __ _| |_ ___  _ __ 
+ | |\/| |/ _ \| '__/ __|/ _ \    | | '__/ _` | '_ \/ __| |/ _` | __/ _ \| '__|
+ | |  | | (_) | |  \__ \  __/    | | | | (_| | | | \__ \ | (_| | || (_) | |   
+ |_|  |_|\___/|_|  |___/\___|    |_|_|  \__,_|_| |_|___/_|\__,_|\__\___/|_|   """)
 while True:
     choice = input("\nType 'e' for text-to-Morse encoding, 'd' for Morse-to-text decoding or 'q' to quit: \n")
 
